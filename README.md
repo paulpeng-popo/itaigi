@@ -82,7 +82,7 @@
     物件	mi̍h-kiānn
     代誌	tāi-tsì
     日頭	ji̍t-thâu
-    月    gue̍h
+    月      gue̍h
     樓跤	lâu-kha
     正頓	tsiànn-tǹg
     塗跤    thôo-kha
