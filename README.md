@@ -15,7 +15,7 @@
    - `return` 華語具有與原輸入詞一致之翻譯
    - `return` **按呢講好** 數量最多
 3. 其他
-   1. `return (None, None)`
+   - `return (None, None)`
 
 ## Notes
 + 若 candidate 的台文為羅馬拼音，則取
@@ -82,7 +82,7 @@
     物件	mi̍h-kiānn
     代誌	tāi-tsì
     日頭	ji̍t-thâu
-    月	    gue̍h
+    月  gue̍h
     樓跤	lâu-kha
     正頓	tsiànn-tǹg
     塗跤    thôo-kha
