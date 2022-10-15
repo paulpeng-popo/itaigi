@@ -2,9 +2,13 @@ from search import TaiGiTranslator
 
 test_cases = None
 
-with open('chinese.txt', 'r', encoding='utf8') as f:
-    test_cases = f.readlines()
-    test_cases = [x.strip() for x in test_cases]
+try:
+    with open('chinese.txt', 'r', encoding='utf8') as f:
+        test_cases = f.readlines()
+        test_cases = [x.strip() for x in test_cases]
+except Exception as e:
+    print("Error:",  e)
+    exit(1)
 
 translator = TaiGiTranslator()
 cands = translator.batch_translate(test_cases)
