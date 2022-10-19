@@ -109,8 +109,8 @@ class TaiGiTranslator:
         return list_of_candidates[0]
 
     def checkoutput(self, output: dict) -> tuple:
-        if not all('\u4e00' <= c <= '\u9fff' for c in output['title']):
-            return (output['chinese'][0], output['title'])
+        if not any('\u4e00' <= c <= '\u9fff' for c in output['title']):
+            return (output['chinese_list'][0], output['title'])
         else: return (output['title'], output['tai_lo'][0])
 
     def log(self):
