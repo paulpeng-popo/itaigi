@@ -1,4 +1,5 @@
 .DS_Store
 log.txt
 chinese.txt
-
+taiwanese.txt
+chromedriver/**
